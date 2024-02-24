@@ -1,0 +1,27 @@
+*{ /*configuração em toda a pagina*/
+    padding: 0; /*zera a pagina*/
+    margin: 0;  /*zera a margem*/
+    box-sizing: border-box;  /*tira o escroll horizontal na paginal*/
+}
+
+.cabesalho{
+    background-color: #EB9821;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}   
+
+.menu{
+    list-style-type: none;
+
+}
+.menu__item{
+    display: inline-block;
+    position: relative;
+    padding-right: 3%;
+}
+.menu__item_home{
+    display: inline-block;
+    position: relative;
+    padding-right: 20%;
+}
