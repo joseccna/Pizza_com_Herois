@@ -4,11 +4,16 @@
     box-sizing: border-box;  /*tira o escroll horizontal na paginal*/
 }
 
+body{
+    background-color: #0C0A0F;
+}
 .cabesalho{
-    background-color: #EB9821;
+    background-color: #bc3930;
     padding-left: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 2px;
+    align-items: center;
+    justify-content: space-between;
+
 }   
 
 .menu{
@@ -17,16 +22,22 @@
 }
 .menu__item{
     display: inline-block;
-    position: relative;
     padding-right: 3%;
+
 }
+
+.menu_fonte{
+    color: white;
+}
+
 .menu__item_log{
     display: inline-block;
     position: relative;
-    padding-right: 20px;
+    padding-right: 15%;
     
 }
 .log{
-    height: 100px;
-    width: 100px;
+    height: 60px;
+    width: 60px;
+    
 }
