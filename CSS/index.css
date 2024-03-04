@@ -18,17 +18,17 @@ body{
 
 .menu{
     list-style-type: none;
-
 }
 .menu__item{
     display: inline-block;
     padding-right: 3%;
+    
 
 }
 
 .menu_fonte{
     color: white;
-}
+} 
 
 .menu__item_log{
     display: inline-block;
