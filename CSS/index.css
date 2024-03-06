@@ -41,3 +41,9 @@ body{
     width: 60px;
     
 }
+
+.amigos{
+    display: inline-block;
+    width: 50%;
+    height: 60%;
+}
