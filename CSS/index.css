@@ -11,17 +11,19 @@ body{
     background-color: #bc3930;
     padding-left: 20px;
     padding-bottom: 2px;
-    align-items: center;
-    justify-content: space-between;
 
 }   
 
 .menu{
+    display: flex;
+    flex-direction: row;
     list-style-type: none;
 }
 .menu__item{
-    display: inline-block;
+    display: flex;
+     align-items: center;
     padding-right: 3%;
+
     
 
 }
@@ -31,8 +33,6 @@ body{
 } 
 
 .menu__item_log{
-    display: inline-block;
-    position: relative;
     padding-right: 15%;
     
 }
@@ -42,8 +42,23 @@ body{
     
 }
 
+
+.banner{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.banner_pízza{
+display: flex;
+align-items: center;
+width: 100%;
+
+}
+
 .amigos{
     display: inline-block;
     width: 40%;
     
 }
+
