@@ -1,0 +1,64 @@
+*{ /*configuração em toda a pagina*/
+    padding: 0; /*zera a pagina*/
+    margin: 0;  /*zera a margem*/
+    box-sizing: border-box;  /*tira o escroll horizontal na paginal*/
+}
+
+body{
+    background-color: #0C0A0F;
+}
+.cabesalho{
+    background-color: #bc3930;
+    padding-left: 20px;
+    padding-bottom: 2px;
+
+}   
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.menu__item{
+    display: flex;
+     align-items: center;
+    padding-right: 3%;
+
+    
+
+}
+
+.menu_fonte{
+    color: white;
+} 
+
+.menu__item_log{
+    padding-right: 15%;
+    
+}
+.log{
+    height: 60px;
+    width: 60px;
+    
+}
+
+
+.banner{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.banner_pízza{
+display: flex;
+align-items: center;
+width: 100%;
+
+}
+
+.amigos{
+    display: inline-block;
+    width: 40%;
+    
+}
+
