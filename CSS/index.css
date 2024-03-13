@@ -6,6 +6,7 @@
 
 body{
     background-color: #0C0A0F;
+    color: white;
 }
 .cabesalho{
     background-color: #bc3930;
@@ -28,9 +29,6 @@ body{
 
 }
 
-.menu_fonte{
-    color: white;
-} 
 
 .menu__item_log{
     padding-right: 15%;
@@ -62,3 +60,6 @@ width: 100%;
     
 }
 
+.menu_fonte{
+    color: white;
+} 
