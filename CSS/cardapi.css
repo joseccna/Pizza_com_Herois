@@ -39,3 +39,16 @@ body{
     width: 60px;
     
 }
+
+.sabores{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+
+}
+.imagem_pizza{
+    min-width: 80px;
+    min-height: 80px;
+    max-width: 200px;
+    max-height: 200px;
+}
