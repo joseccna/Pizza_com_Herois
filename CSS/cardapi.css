@@ -40,18 +40,15 @@ body{
     
 }
 
-.cabesalho_pizza{
+
+.sabores{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
 }
-.sabores{
-    display: flex;
-
-}
 .imagem_pizza{
     min-width: 80px;
-    min-height: 80px;
+    min-height: 200px;
     max-width: 200px;
     max-height: 200px;
 }
