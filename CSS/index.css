@@ -9,7 +9,7 @@ body{
     color: white;
 }
 .cabesalho{
-    background-color: #bc3930;
+    background-color: #f00101;
     padding-left: 20px;
     padding-bottom: 2px;
 }   
@@ -34,13 +34,10 @@ body{
     width: 60px;
 }
 
-
-.banner{
+.banner_pízza{
     display: flex;
     flex-wrap: wrap;
-}
-
-.banner_pízza{
+    flex-direction: row;
     width: 100%;
 }
 
