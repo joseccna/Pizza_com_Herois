@@ -41,14 +41,25 @@ body{
 }
 
 
-.sabores{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+
+.imagem_pizza1{
+    width: 100%;
+    height: 95%;
+    
+  }
+
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr, 1fr, 1fr, 1fr;
+    align-items: stretch;
+    justify-items: stretch;
+
 }
-.imagem_pizza{
-    min-width: 80px;
-    min-height: 200px;
-    max-width: 200px;
-    max-height: 200px;
+
+.gird_titulo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }

@@ -4,18 +4,11 @@
     box-sizing: border-box;  /*tira o escroll horizontal na paginal*/
 }
 
+
 body{
-    background-image: url(/imagem/universo_colorido.jfif);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
-
-/*body{
     background-color: #0C0A0F;
     color: white;
-}*/
+}
 .cabesalho{
     background-color: #f00101;
     padding-left: 20px;
