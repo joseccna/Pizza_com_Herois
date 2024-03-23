@@ -40,6 +40,7 @@ body{
     flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
+    margin-bottom: 20px;
 }
 
 
@@ -79,4 +80,7 @@ body{
 .footer_alinhamento{
     display: flex;
     justify-content: center;
+    padding-top: 20px;
 }
+
+
