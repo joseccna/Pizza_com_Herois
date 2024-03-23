@@ -76,3 +76,7 @@ body{
     color: white;
 } 
 
+.footer_alinhamento{
+    display: flex;
+    justify-content: center;
+}
