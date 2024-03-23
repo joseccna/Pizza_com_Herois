@@ -54,7 +54,7 @@ body{
 
 .vingadores{
     display: flex;
-     width: 20%;
+     width: 100%;
      flex-wrap: wrap;
 }
 
@@ -76,8 +76,3 @@ body{
     color: white;
 } 
 
-
-
-html {
-    scroll-behavior: smooth;
-}
