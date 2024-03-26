@@ -30,7 +30,12 @@ body{
 
 .menu_fonte{
     color: white;
+    text-decoration: none;
 } 
+.menu_fonte:hover{
+    color: white;
+    text-decoration:underline;
+}
 
 .menu__item_log{
     padding-right: 15%;

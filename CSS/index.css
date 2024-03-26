@@ -23,10 +23,16 @@ body{
 }
 .menu__item{
     display: flex;
-     align-items: center;
+    align-items: center;
     padding-right: 3%;
 }
-
+.menu_fonte{
+    color: white;
+} 
+.menu_fonte:hover{
+    color: white;
+    
+}
 
 .menu__item_log{
     padding-right: 15%;
@@ -67,16 +73,14 @@ body{
 
 }
 
-
+.botao{
+    background-color: #f00101}
 
 .amigos{
     display: inline-block;
     width: 40%;
 }
 
-.menu_fonte{
-    color: white;
-} 
 
 .footer_alinhamento{
     display: flex;
