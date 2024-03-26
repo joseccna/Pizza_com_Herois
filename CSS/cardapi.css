@@ -68,3 +68,8 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
 }
+.footer_alinhamento{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}

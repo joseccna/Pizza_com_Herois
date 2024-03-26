@@ -46,3 +46,8 @@ body{
     width: 60px;
     
 }
+.footer_alinhamento{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
