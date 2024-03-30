@@ -8,6 +8,7 @@ body{
     background-color: #0C0A0F;
     color: white;
 }
+
 .cabesalho{
     background-color: #f00101;
     padding-left: 20px;
@@ -48,8 +49,9 @@ body{
 
 
 .imagem_pizza1{
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 85%;
+    
 }
 
 
@@ -57,27 +59,17 @@ body{
 .grid{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1fr, 1fr, 1fr, 1fr;
-    align-items: stretch;
-    justify-items: stretch;
-
+    grid-template-rows: 1fr;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
-.gird_titulo{
+.grid section{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-.footer_alinhamento{
-    display: flex;
-    justify-content: center;
-    padding-top: 60px;
-}
-
-.teste section{
-    
-    justify-content: center;
-    align-items: center;
+    width: 89%;
+    height: 85%;
+    align-items: center;    
+    flex-direction: column;
     border-radius: 5px;
 /*degrader nas cores*/
     background-image: linear-gradient(rgb(58,60,74), rgb(38,38,50));
@@ -90,7 +82,7 @@ body{
                 rgba(0,0,0,0.72) 0px 30px 22px -10px;
 }
 
-.teste section:hover{
+.grid section:hover{
     cursor: pointer;
     transform: scale(1.05);
 
@@ -99,3 +91,21 @@ body{
 
     
 }
+
+
+
+.gird_titulo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+.footer_alinhamento{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+
