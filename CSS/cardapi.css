@@ -124,7 +124,23 @@ body{
             
         }
 }
+.cabesalho{
+    background-color: #f00101;
+    padding-left: 8px;
+    padding-bottom: 1px;}
+
+.menu__item{
+    display: flex;
+     align-items: center;
+    padding-right: 1%;}
+
+    .menu__item_log{
+        padding-right: 3%;}
+
   }
+
+
+
 
   @media (min-width: 785px) and (max-width: 1201px) {
         .imagem_pizza1{
