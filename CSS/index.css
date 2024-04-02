@@ -112,3 +112,33 @@ body{
     margin-top:-8px;
     
 }
+
+@media screen and (max-width: 440px) {
+
+    .cabesalho{
+        background-color: #f00101;
+        padding-left: 2px;
+        padding-bottom: 1px;}
+    
+    .menu__item{
+        display: flex;
+         align-items: center;
+        padding-right: 1%;}
+    
+        .menu__item_log{
+            padding-right: 1%;}
+
+      }
+
+      @media (min-width: 441px) and (max-width: 600px) {
+  
+        .menu__item{
+            display: flex;
+             align-items: center;
+            padding-right: 3%;}
+        
+            .menu__item_log{
+                padding-right: 1%;}
+        
+          }
+    
