@@ -114,6 +114,8 @@ body{
 
 @media screen and (max-width: 440px) {
 
+
+
     .cabesalho{
         background-color: #f00101;
         padding-left: 2px;
@@ -138,48 +140,40 @@ body{
                 .imagem_pizza1{
                     width: 100%;
                     height: 80%;} }
-      
-      
-      
-      
-        }
-
-
-
-
-
-
-      @media (min-width: 441px) and (max-width: 784px) {
-  
-        .grid {
-
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            grid-template-rows: repeat(2, 1fr);
-            margin-bottom: 20px;
-            margin-top: 20px;
-    
-            .imagem_pizza1{
-                width: 100%;
-                height: 80%;} }
-
-        .menu__item{
-            display: flex;
-             align-items: center;
-            padding-right: 3%;}
-        
-            .menu__item_log{
-                padding-right: 1%;}
-        
-          }
-
-
-
-  @media (min-width: 785px) and (max-width: 1201px) {
-        .imagem_pizza1{
-            width: 100%;
-            height: 78%;
-            
-        }
 }
-  
+
+
+
+
+
+
+@media (min-width: 441px) and (max-width: 784px) {
+
+.grid {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+    .imagem_pizza1{
+        width: 100%;
+        height: 80%;} }
+
+.menu__item{
+    display: flex;
+        align-items: center;
+    padding-right: 3%;}
+
+    .menu__item_log{
+        padding-right: 1%;}
+}
+
+
+
+@media (min-width: 785px) and (max-width: 1201px) {
+    .imagem_pizza1{
+        width: 100%;
+        height: 78%;}
+}
