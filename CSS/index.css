@@ -31,7 +31,7 @@ body{
 } 
 .menu_fonte:hover{
     color: white;
-    
+    font-size: 19px;
 }
 
 .menu__item_log{

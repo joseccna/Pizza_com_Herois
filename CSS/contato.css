@@ -35,6 +35,7 @@ body{
 .menu_fonte:hover{
     color: white;
     text-decoration:underline;
+    font-size: 19px;
 }
 .menu__item_log{
     padding-right: 15%;
