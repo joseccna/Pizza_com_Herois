@@ -47,6 +47,11 @@ body{
     width: 60px;
     
 }
+
+main{
+    margin-top: 20px;
+}
+
 .footer_alinhamento{
     display: flex;
     justify-content: center;
