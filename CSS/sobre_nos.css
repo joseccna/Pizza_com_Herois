@@ -48,8 +48,11 @@ body{
     
 }
 
-main{
-    margin-top: 20px;
+
+
+.herois{
+    margin-bottom: 10px;
+    width: 100%;
 }
 
 .footer_alinhamento{
